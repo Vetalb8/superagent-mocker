@@ -1,7 +1,7 @@
 {
-  "name": "superagent-mocker",
-  "version": "0.5.2",
-  "description": "Pretty simple mocks for the CRUD and REST API",
+  "name": "request-mocker",
+  "version": "1.0.0",
+  "description": "SuperAgent Mocker",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -11,22 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:shuvalov-anton/superagent-mocker.git"
+    "url": "git@github.com:Vetalb8/superagent-mocker.git"
   },
   "keywords": [
     "superagent",
-    "crud",
-    "mocks",
-    "stubs",
-    "rest",
-    "test"
+    "mocks"
   ],
-  "author": "Anton <anton@shuvalov.info> (http://shuvalov.info/)",
+  "author": "Vitaliy Kudla",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuvalov-anton/superagent-mocker/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/shuvalov-anton/superagent-mocker",
+  "homepage": "https://github.com/Vetalb8/superagent-mocker",
   "devDependencies": {
     "coveralls": "^2.11.4",
     "jscoverage": "^0.6.0",

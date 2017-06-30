@@ -12,7 +12,7 @@ Written for [superagent](https://github.com/visionmedia/superagent).
 ## Install
 
 ```shell
-npm i superagent-mocker
+npm i request-mocker
 ```
 
 ## Usage
@@ -21,24 +21,7 @@ npm i superagent-mocker
 
 ```js
 var request = require('superagent');
-var mock = require('superagent-mocker')(request);
-```
-
-### Timeout
-
-You can provide custom timeout, that can be a function or a number. Just set
-`timeout` property to the `mock`:
-
-```js
-var mock = require('superagent-mocker');
-
-// set just number
-mock.timeout = 100;
-
-// Or function to get random
-mock.timeout = function () {
-  return Math.random() * 1e4 |0;
-}
+var mock = require('request-mocker')(request);
 ```
 
 ### Get
@@ -146,5 +129,5 @@ In this cases you can use ```mock.unmock(superagent)``` method, that will rollba
 
 ## License
 
-MIT © [Shuvalov Anton](http://shuvalov.info)
+MIT ©
 
